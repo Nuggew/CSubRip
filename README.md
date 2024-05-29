@@ -20,6 +20,7 @@ public class Program
 ```
 
 ## How is the structure of a SubRip file?
+Thats the basic structure of a SubRip (.srt) file!
 ```
 1
 00:00:00,000 -> 00:10:00,000
