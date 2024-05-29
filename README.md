@@ -1,6 +1,6 @@
 # CSubRip
 A SubRip decoder made for CSharp .NET Framework
-[(https://img.shields.io/badge/build-passing-brightgreen)]
+<img src="https://img.shields.io/badge/build-passing-brightgreen"></img>
 
 ## How to install?
 To make the using more easy, the library DLL download is avaible on the [releases](https://github.com/Nuggew/CSubRip/releases) page.
