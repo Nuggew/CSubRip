@@ -1,0 +1,6 @@
+C:\Users\guilh\source\repos\CSubRip\bin\Debug\CSubRip.dll
+C:\Users\guilh\source\repos\CSubRip\bin\Debug\CSubRip.pdb
+C:\Users\guilh\source\repos\CSubRip\obj\Debug\CSubRip.csproj.AssemblyReference.cache
+C:\Users\guilh\source\repos\CSubRip\obj\Debug\CSubRip.csproj.CoreCompileInputs.cache
+C:\Users\guilh\source\repos\CSubRip\obj\Debug\CSubRip.dll
+C:\Users\guilh\source\repos\CSubRip\obj\Debug\CSubRip.pdb
