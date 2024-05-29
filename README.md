@@ -1,6 +1,4 @@
-# CSubRip
-<a href="#"><img src="https://img.shields.io/badge/build-passing-brightgreen"></img></a>
-#
+# CSubRip<br><a href="#"><img src="https://img.shields.io/badge/build-passing-brightgreen"></img></a>
 A SubRip decoder made for CSharp .NET Framework
 
 ## How to install?
