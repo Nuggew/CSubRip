@@ -6,7 +6,7 @@ To make the using more easy, the library DLL download is avaible on the [release
 
 ## How to use?
 This library is the simplest that it could be!
-```
+```cs
 using CSubRip;
 
 public class Program
@@ -21,7 +21,7 @@ public class Program
 
 ## How is the structure of a SubRip file?
 Thats the basic structure of a SubRip (.srt) file!
-```
+```srt
 1
 00:00:00,000 -> 00:10:00,000
 Hello World!
