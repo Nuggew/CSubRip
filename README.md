@@ -13,7 +13,7 @@ public class Program
 {
   void Main(string[] args)
   {
-    List<CSubRip.SubRipParagraph> srtParagraphs = CSubRip.Decoder.DecodeToObject("[SUBRIP STRING HERE]");
+    List<SubRipParagraph> srtParagraphs = Decoder.DecodeToObject("[SUBRIP STRING HERE]");
     // YOUR CODE HERE!
   }
 }
