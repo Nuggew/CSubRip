@@ -1,13 +1,50 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
 namespace CSubRip
 {
+
+    public static class Encoder
+    {
+        public static void EncodeToFile(List<SubRipParagraph> paragraphs, string filePath)
+        {
+            string srt = EncodeToString(paragraphs);
+            File.WriteAllText(filePath, srt);
+        }
+
+        public static async void EncodeToFileAsync(List<SubRipParagraph> paragraphs, string filePath)
+        {
+            string srt = EncodeToString(paragraphs);
+            StreamWriter file = File.CreateText(filePath);
+            await file.WriteAsync(srt);
+            file.Close();
+        }
+
+        public static string EncodeToString(List<SubRipParagraph> paragraphs)
+        {
+            string content = "";
+
+            for (int i = 0; i < paragraphs.Count; i++)
+            {
+                SubRipParagraph paragraph = paragraphs[i];
+                content += paragraph.id + "\n" + TimeSpan.FromMilliseconds(paragraph.startSeconds).ToString(@"hh\:mm\:ss\,fff") + " -> " + TimeSpan.FromMilliseconds(paragraph.endSeconds).ToString(@"hh\:mm\:ss\,fff") + "\n" + paragraph.text + (paragraphs.Count >= i + 2 ? "\n\n" : "");
+            }
+
+            return content;
+        }
+    }
+
     public static class Decoder
     {
+        public static List<SubRipParagraph> DecodeFromFile(string filePath)
+        {
+            return DecodeFromFile(File.ReadAllText(filePath));
+        }
+
         public static List<SubRipParagraph> DecodeToObject(string str)
         {
             bool parsingParagraph = false;
