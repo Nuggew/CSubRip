@@ -6,7 +6,7 @@ To make the using more easy, the library DLL download is avaible on the [release
 
 ## How to use?
 This library is the simplest that it could be!
-```cs
+```c#
 using CSubRip;
 
 public class Program
