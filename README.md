@@ -1,4 +1,4 @@
-# CSubRip<br><a href="https://github.com/Nuggew/CSubRip/releases"><img src="https://img.shields.io/badge/build-passing-brightgreen"></img></a>
+# CSubRip<br><a href="https://github.com/Nuggew/CSubRip/releases"><img src="https://img.shields.io/badge/build-passing-brightgreen"></img></a> ![GitHub last commit (branch)](https://img.shields.io/github/last-commit/Nuggew/CSubRip/main)
 A SubRip encoder/decoder made for CSharp .NET Framework
 
 ## How to install?
