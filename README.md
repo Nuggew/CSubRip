@@ -2,10 +2,10 @@
 A SubRip encoder/decoder made for CSharp .NET Framework
 
 ## How to install?
-To make the using more easy, the library DLL download is avaible on the [releases](https://github.com/Nuggew/CSubRip/releases) page.
+The library DLL download is avaible on the [releases](https://github.com/Nuggew/CSubRip/releases) page.
 
 ## How to use?
-This library is the simplest that it could be!
+This library is the simpler that it could be!
 ```c#
 using CSubRip;
 
